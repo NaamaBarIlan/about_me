@@ -4,7 +4,7 @@
 
 var userName = prompt('Hello! Welcome! What is your name?');
 alert('Hey there ' + userName + '! Let\'s start with a little guessing game about me \:\)');
-console.log('The user\'s name is' + userName);
+console.log('The user\'s name is ' + userName);
 
 // Question 1
 
@@ -64,5 +64,29 @@ if (answerFive === 'yes' || answerFive === 'y'){
   console.log('User got the wrong answer to question 5');
 }
 
+// Question 6
 
+// ask the user to guess a number/ a Q with numeric input - done
+// alert the user if the guess is too high or too low - if/else
+// give the user exactly for chances to guess - while loop
 
+var guesses = 0;
+
+while (guesses < 4){
+
+  var answerSix = Number(prompt('How many Canadian Provinces have I visited, from 1-10?'));
+  guesses++;
+  console.log(typeof answerSix);
+
+  if (answerSix > 4){
+    alert('Oh, I wish! But no, not so many...');
+    console.log('User got the wrong answer to question 6. Their Answer was over 4');
+  } else if (answerSix < 4){
+    alert('That\'s a pretty low number. I did better than that');
+    console.log('User got the wrong answer to question 6. Their Answer was under 4');
+  } else if (answerSix === 4){
+    alert('Amazing guess! That\'s correct ' + userName);
+    console.log('User got the correct answer to question 6');
+    guesses = 5;
+  }
+}
