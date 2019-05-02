@@ -17,7 +17,10 @@ None.
 
 ## Authors
 
-* **Na'ama Bar-Ilan** - *Initial work* - [GitHub Profile](https://github.com/NaamaBarIlan)
+* **Na'ama Bar-Ilan** - [GitHub Profile](https://github.com/NaamaBarIlan)
+* **Paula Cruz** - [GitHub Profile](https://github.com/polangs)
+* **Carey Goodwin** - [GitHub Profile](https://github.com/CareyEG)
+
 
 ## License
 
@@ -26,3 +29,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Huge thanks to everyone in 201d48, Sam, Ryan and Lena!
+
