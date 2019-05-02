@@ -12,16 +12,20 @@ var correctAnswer = 0;
 
 // Question 1
 
-var answerOne = prompt('Do I like spicy food?').toLowerCase();
+function gameQuestion(){
+  var answerOne = prompt('Do I like spicy food?').toLowerCase();
 
-if (answerOne === 'no' || answerOne === 'n') {
-  alert('That\'s true, I really can\'t do more than 1 star');
-  console.log('User got the correct answer to question 1');
-  correctAnswer++;
-} else {
-  alert('sadly no... I have no tolerance');
-  console.log('User got the wrong answer to question 1');
+  if (answerOne === 'no' || answerOne === 'n') {
+    alert('That\'s true, I really can\'t do more than 1 star');
+    console.log('User got the correct answer to question 1');
+    correctAnswer++;
+  } else {
+    alert('sadly no... I have no tolerance');
+    console.log('User got the wrong answer to question 1');
+  }
+  
 }
+gameQuestion();
 
 // Question 2
 
