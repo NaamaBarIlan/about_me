@@ -3,7 +3,7 @@
 // User Name
 
 var userName = prompt('Hello! Welcome! What is your name?');
-alert('Hey there ' + userName + '! Let\'s start with a little guessing game about me \:\)');
+alert('Hey there ' + userName + '! Let\'s start with a little guessing game about me\:\)');
 console.log('The user\'s name is ' + userName);
 
 // Correct Answer 
