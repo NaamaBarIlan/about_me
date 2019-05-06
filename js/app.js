@@ -2,11 +2,11 @@
 
 // User Name
 
-var userName = prompt('Hello! Welcome! What is your name?');
-alert('Hey there ' + userName + '! Let\'s start with a little guessing game about me\:\)');
+var userName = prompt('Welcome! What is your name?');
+alert('Hey there ' + userName + '! Let\'s start with a little guessing game about me :)');
 console.log('The user\'s name is ' + userName);
 
-// Correct Answer 
+// Correct Answer
 
 var correctAnswer = 0;
 
@@ -23,7 +23,7 @@ function gameQuestion(){
     alert('sadly no... I have no tolerance');
     console.log('User got the wrong answer to question 1');
   }
-  
+
 }
 gameQuestion();
 
@@ -55,7 +55,7 @@ if (answerThree === 'yes' || answerThree === 'y'){
 
 // Question 4
 
-var answerFour = prompt('Am I a linsenced diving instructor?').toLowerCase();
+var answerFour = prompt('Am I a licensed diving instructor?').toLowerCase();
 if (answerFour === 'no' || answerFour === 'n'){
   alert('That\'s right. I like scuba diving, but that\'s about it');
   console.log('User got the correct answer to question 4');
@@ -69,7 +69,7 @@ if (answerFour === 'no' || answerFour === 'n'){
 
 var answerFive = prompt('Do I like baking pies?').toLowerCase();
 if (answerFive === 'yes' || answerFive === 'y'){
-  alert('Yeah, I do. My favorite is pumkin');
+  alert('Yeah, I do. My favorite is pumpkin');
   console.log('User got the correct answer to question 5');
   correctAnswer++;
 } else {
@@ -107,10 +107,10 @@ while (guessesSix < 4){
 
 // Question 7
 
-// Write a question that has multiple correct answers. done.
-// create an array of all the possible correct answers. done. 
-// Give the user 6 chances to guess the answer. done. 
-// When the user guesses right OR runs out of tries, display the full array. 
+// Write a question that has multiple correct answers.
+// create an array of all the possible correct answers.
+// Give the user 6 chances to guess the answer.
+// When the user guesses right OR runs out of tries, display the full array.
 
 var guessesSeven = 0;
 var movies =['iron man', 'black panther', 'captain marvel', 'ant man'];
@@ -119,7 +119,7 @@ while (guessesSeven < 6){
 
   var isCorrect = false;
 
-  var answerSeven = prompt('What are my 4 favorites Marvel movies?').toLowerCase();
+  var answerSeven = prompt('What is one of my top 4 favorites Marvel movies?').toLowerCase();
   guessesSeven++;
   console.log(typeof answerSeven);
 
@@ -148,5 +148,5 @@ while (guessesSeven < 6){
 // keep a tally of the total correct answers.
 // display a message "Great effort userName You got X out of Y questions correct."
 
-alert('Great effort ' + userName + ' You got ' + correctAnswer + ' out of 7 questions correct!' );
+alert('Great effort ' + userName + '! You got ' + correctAnswer + ' out of 7 questions correct' );
 

@@ -4,7 +4,6 @@ Code 201 - About Me Project
 
 ## Getting Started
 
-Open index.html in a browser.
 
 ### Prerequisites
 
