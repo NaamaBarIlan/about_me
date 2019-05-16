@@ -1,7 +1,16 @@
-
+/* Entire Page */
 
 body {
     font-family: 'Raleway', sans-serif;
+
+}
+
+/* Header */
+
+header {
+    padding: 30px;
+    align-content: center;
+    text-align: center;
 }
 
 img {
@@ -19,44 +28,52 @@ h3 {
     margin-top: 12px;
 }
 
-header {
-    padding: 30px;
-    align-content: center;
-    text-align: center;
-}
+/* Main */
 
 main {
     padding: 30px;
+    width: 1218px;
+    height: 400px;
+    margin: 0px auto;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: rgba(227, 227, 227, 0.276);
+   
 }
 
-section {
-    background-color: #efefef;
-    margin: 50px;
-    padding: 20px;
+main div {
+    float: left;
+}
+
+.list {
+    width: 40%;
+    display: inline-block;
+    margin-left: 75px;
+    
+}
+
+#basics {
+    height: 200px;
+    list-style: inside;
+}
+
+#top-ten {
+    height: 200px;
+    list-style: inside;
 }
 
 h2 {
     margin-top: 15px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
-/* #basics{
-    float: left;
-    margin: 50px;
-    list-style-type: circle;
-    padding: 20px;
-    background-color: #efefef;
-}
+/* Footer */
 
-#top-ten-list {
-    float: left;
-    margin-right: 50px;
-    padding: 20px;
-    background-color: #efefef; */
-    
-/* } */
-
-footer{
-    float: left;
-    margin-top: 100px;
+#footer {
+    height: 50px;
+    clear: both;
+    font-size: 13px;
+    margin-top: 50px;
+    margin-left: 10px;
 }

@@ -130,6 +130,7 @@ while (guessesSeven < 6){
       console.log('User got the correct answer to question 7.');
       isCorrect = true;
       guessesSeven = 7;
+      correctAnswer++;
     }
   }
   if (!isCorrect){
